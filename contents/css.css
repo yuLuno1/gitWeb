@@ -16,3 +16,8 @@ p {
 	}
 
 }
+a::before{
+	content: "\02747";
+	font-size: 16px;
+	color: #f0f;
+}
