@@ -3,7 +3,7 @@
 p { 
 	color: #f0f;
 }
-
+/*
 @media screen and (max-width: 599px) {
 	.col{
 		float: none;
@@ -14,7 +14,15 @@ p {
 	.row{
 		padding: 0 8px;
 	}
-
+}
+*/
+@media (max-width: 599px) {
+	main{
+		width: 90%;
+	}
+	main img {
+		width: 100%;
+	}
 }
 a::before{
 	content: "\02747";
