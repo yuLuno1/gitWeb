@@ -29,6 +29,11 @@ a::before{
 	font-size: 16px;
 	color: #f0f;
 }
+details{
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #050;
+}
 details[open] .do-open{
 	display: none;
 }
